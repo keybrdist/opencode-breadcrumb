@@ -1,6 +1,6 @@
 {
   "name": "opencode-breadcrumb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode plugin that displays timestamp, session duration, and git context on each prompt",
   "type": "module",
   "main": "index.js",
