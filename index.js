@@ -172,12 +172,7 @@ const TimestampPlugin = async (ctx) => {
         const line = `${timestamp} │ ${gitContext}`;
         
         if (!output.parts) output.parts = [];
-        const idx = output.parts.findIndex((p) => p && p.type === "text" && typeof p.text === "string");
-        if (idx >= 0) {
-          output.parts[idx].text = `${line}\n\n${output.parts[idx].text ?? ""}`;
-        } else {
-          output.parts.unshift({ type: "text", text: line });
-        }
+        output.parts.unshift({ type: "text", text: line, ignored: true });
       } catch (error) {
         console.error("timestamp-plugin error:", error);
       }
