@@ -1,0 +1,37 @@
+{
+  "name": "opencode-breadcrumb",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that displays timestamp, session duration, and git context on each prompt",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "timestamp",
+    "session",
+    "git",
+    "context",
+    "breadcrumb"
+  ],
+  "author": "Mike Ramirez <keybrdist@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keybrdist/opencode-breadcrumb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keybrdist/opencode-breadcrumb/issues"
+  },
+  "homepage": "https://github.com/keybrdist/opencode-breadcrumb#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js"
+  ]
+}
