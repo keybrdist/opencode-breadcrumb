@@ -2,10 +2,6 @@
 
 OpenCode plugin that displays timestamp, session duration, and git context on each prompt.
 
-## Zero Context Cost
-
-Unlike injecting text into messages, this plugin uses OpenCode's `ignored` flag to display the breadcrumb **without consuming context tokens**. The breadcrumb appears in the UI but is excluded from the conversation history sent to the LLM.
-
 ## Prerequisites
 
 - [OpenCode](https://opencode.ai) CLI
