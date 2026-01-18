@@ -14,6 +14,8 @@ OpenCode plugin that displays timestamp, session duration, and git context on ea
 🕐 01-14 18:30 (+2m15s) ⏱️1h23m * │ ⎇ main ↑2↓1 wt:feature(2) │ ✎3 +5 │ "Last commit msg" 2h
 ```
 
+![Screenshot showing OpenCode breadcrumb with timestamp, git branch status, and file changes highlighted in red box](https://github.com/user-attachments/assets/65eae4f5-b86c-45cf-b3ea-424a1e3ebd1e)
+
 ## Format Reference
 
 ### Time Section
